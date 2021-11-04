@@ -8,4 +8,7 @@ function add(num1, num2) {
 
 button.addEventListener("click", function() {
   console.log(add(input1.value, input2.value));
+  // the result is the string "105", 
+  // which is not read "a hundred and five" or "ten oh five"
+  // but "one zero five" because it's a string.
 });
